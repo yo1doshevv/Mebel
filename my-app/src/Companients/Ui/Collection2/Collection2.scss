@@ -1,0 +1,34 @@
+.coll{
+    width: 100%;
+    margin-top: 150px;
+    &_wrapper3{
+        width: 80%;
+        height: 420px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        color: white;
+        border-radius: 15px;
+        background: rgb(67,96,72);
+        background: linear-gradient(90deg, rgba(67,96,72,1) 29%, rgba(63,153,89,1) 100%);
+    }
+
+    &_img img{
+        width: 700px;
+        height: 650px;
+        margin-left: -23px;
+    }
+
+    &_left{
+        font-size: 40px;
+        font-weight:1000;
+        margin-left: 50px;
+    }
+
+    &_right{
+        margin-right: 30px;
+        width: 500px;
+        font-size: 16px;
+        font-weight: 700;
+    }
+}
