@@ -1,6 +1,7 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import "./Pg2.scss";
 import SearchIcon from '@mui/icons-material/Search';
+import Aos from 'aos';
 
 
 const Pg2 = () => {
@@ -427,6 +428,13 @@ const Pg2 = () => {
       Manufacturer: "Bukhara Natural Product",
     },
  ])
+
+ useEffect(()=>{
+  Aos.init({
+    duration: 500,
+    once:false,
+  })
+ })
   return (
     <div className='colec text-secondary-emphasis'>
         <div className="colec_wrapper">
@@ -448,9 +456,9 @@ const Pg2 = () => {
                <h2>Collection</h2>
                <p>Showing 1–16 of 76</p>
                </div>
-               <div className="colec_box">
+               <div className="colec_box" >
                   {showData.map((item)=>(
-                      <div className="colec_product">
+                      <div className="colec_product"  data-aos="zoom-in-right">
                           <div className="colec_img">
                     <img src={item.img} alt="" />
                   </div>

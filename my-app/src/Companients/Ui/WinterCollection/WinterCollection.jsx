@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './WinterCollection.scss';
 import Aos from 'aos';
+import Window from '../Window/Window';
 
 
 const WinterCollection = () => {
@@ -155,6 +156,20 @@ const WinterCollection = () => {
       },
   ]);
 
+  useState(
+    function window(params) {
+      <div className="win">
+        <div className="win_wrapper">
+          <div className="win_left">
+            <div className="win_img">
+              <img src={data.id} alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    }
+  )
+
   return (
     <div className='winter'>
       <div className="winter_wtitle">
@@ -165,7 +180,7 @@ const WinterCollection = () => {
         {data.map((item) => (
                 <div key={item.id} className="winter_product"  data-aos="zoom-in-right">
                     <div className="winter_img">
-                    <img src={item.img} alt="" />
+                    <img onClick={window} src={item.img} alt="" />
                     </div>
                     <div className="winter_title">
                     <h5>{item.name}</h5>

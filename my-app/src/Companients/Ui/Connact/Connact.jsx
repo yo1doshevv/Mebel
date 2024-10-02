@@ -8,7 +8,7 @@ import FmdGoodIcon from '@mui/icons-material/FmdGood';
 const Connact = () => {
 
     const [formDataa, setFormData] = useState({
-        name: '',
+      name: '',
         email: "",
         text: ""
     });
@@ -76,7 +76,7 @@ const Connact = () => {
                 <div className="con_phon">
                     <LocalPhoneIcon color='error' fontSize='large'/>
                     {/* <h2>Phone: +998910050913</h2> */}
-                    <a href="tel:+998910050913">Phone: +998910050913</a>
+                    <a href="tel:+998910050913">Phone: +998940515560</a>
                 </div>
                 <div className="con_adres">
                     <FmdGoodIcon color='error' fontSize='large'/>

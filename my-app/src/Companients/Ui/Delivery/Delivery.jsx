@@ -21,7 +21,7 @@ const Delivery = () => {
         <div className="deliv_wrapper" data-aos="fade-up">
             <div className="deliv_box">
                 <div className="deliv_box1_logo">
-                    <LocalShippingIcon/>
+                   <h1 className='deliv_icon'> <LocalShippingIcon fontSize='large'/></h1>
                 </div>
                 <div className="deliv_box1_text">
                    <h3 > Bepul Yetkazibberish</h3>
@@ -31,7 +31,7 @@ const Delivery = () => {
             
             <div className="deliv_box1">
             <div className="deliv_box1_logo">
-                    <EventAvailableIcon/>
+                   <h1 className='deliv_icon'> <EventAvailableIcon fontSize='large'/></h1>
                 </div>
                 <div className="deliv_box1_text">
                    <h3> Bepul Yetkazibberish</h3>
@@ -41,7 +41,7 @@ const Delivery = () => {
 
             <div className="deliv_box1">
             <div className="deliv_box1_logo">
-                    <SupportAgentIcon/>
+                   <h1 className='deliv_icon'> <SupportAgentIcon fontSize='large'/></h1>
                 </div>
                 <div className="deliv_box1_text">
                    <h3> Bepul Yetkazibberish</h3>
@@ -51,7 +51,7 @@ const Delivery = () => {
 
             <div className="deliv_box1">
                  <div className="deliv_box1_logo">
-                   <h1 className='icon'> <PaymentsIcon /></h1>
+                   <h1 className='deliv_icon'> <PaymentsIcon fontSize='large'/></h1>
                 </div>
                 <div className="deliv_box1_text">
                    <h3> Bepul Yetkazibberish</h3>

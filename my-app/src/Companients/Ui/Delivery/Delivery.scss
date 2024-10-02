@@ -29,8 +29,46 @@
         align-items: center;
         gap: 10px;
     }
+    &_icon{
+        color: red;
+    }
 }
 
 .deliv_box1_text h3{
     font-size: 20px;
+}
+
+@media (max-width: 768px){
+    .deliv{
+        width: 768px;
+        font-size: 20px !important;
+        text-align: center;
+        &_wrapper{
+            width: 80%;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+        }
+        &_box{
+            display: block;
+            align-items: center;
+            gap: 10px;
+        }
+        &_box1{
+            display: block;
+            align-items: center;
+            gap: 10px;
+        }
+        &_box2{
+            display: block;
+            align-items: center;
+            gap: 10px;
+        }
+        &_box3{
+            display: block;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+    }
 }
